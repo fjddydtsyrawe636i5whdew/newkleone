@@ -135,7 +135,7 @@ class GenerateUserAgent:
             str: The latest version of Microsoft Edge.
         """
         response = self.getWebdriverPage(
-            "https://github.com/gdpnewtype/edv/raw/main/edv.json"
+            "https://edgeupdates.microsoft.com/api/products"
         )
         data = response.json()
         if stableProduct := next(
@@ -171,7 +171,7 @@ class GenerateUserAgent:
             str: The latest version of Google Chrome.
         """
         response = self.getWebdriverPage(
-            "https://raw.githubusercontent.com/gdpnewtype/edv/main/gcv.json"
+            "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json"
         )
         data = response.json()
         return data["channels"]["Stable"]["version"]
