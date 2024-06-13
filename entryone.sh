@@ -1,7 +1,7 @@
 #!/bin/sh
 sleep 5s;
-chmod 777 /app/kmrmone
-chmod 777 /app/kmrmone/src
+chmod 777 /app/kmr-new-june-working-A-one
+chmod 777 /app/kmr-new-june-working-A-one/src
 
 # remove temp file when previous execution crashed
 rm /tmp/.X99-lock
@@ -14,4 +14,4 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 
 
-python /app/kmrmone/main.py -v  
+python /app/kmr-new-june-working-A-one/main.py -v  
