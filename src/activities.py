@@ -30,7 +30,7 @@ class Activities:
 
     def completeSearch(self):
         # Simulate completing a search activity
-        time.sleep(Utils.randomSeconds(100, 200))
+        time.sleep(Utils.randomSeconds(200, 300))
         self.browser.utils.closeCurrentTab()
 
     def completeSurvey(self):
