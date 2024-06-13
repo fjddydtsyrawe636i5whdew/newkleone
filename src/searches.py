@@ -98,7 +98,7 @@ class Searches:
                     delay = random.uniform(0.2, 1)
                     time.sleep(delay)
                 searchbar.submit()
-                time.sleep(Utils.randomSeconds(200, 300))
+                time.sleep(Utils.randomSeconds(240, 360))
 
                 # Scroll down after the search (adjust the number of scrolls as needed)
                 for _ in range(3):  # Scroll down 3 times
