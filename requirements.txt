@@ -1,5 +1,5 @@
 requests==2.28.1
-selenium==4.20.0 # not directly required, pinned by Snyk to avoid a vulnerability
+selenium==4.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
 ipapi==1.0.4
 undetected-chromedriver==3.5.5
 selenium-wire==5.1.0
