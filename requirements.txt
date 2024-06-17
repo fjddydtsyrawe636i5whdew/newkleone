@@ -6,6 +6,6 @@ selenium-wire==5.1.0
 numpy==1.26.4 # not directly required, pinned by Snyk to avoid a vulnerability
 setuptools==69.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
 psutil==5.9.8
-blinker==1.7.0 #prevents issues on newer versions
+blinker==1.8.2 #prevents issues on newer versions
 apprise==1.8.0
 pyyaml==6.0.1
